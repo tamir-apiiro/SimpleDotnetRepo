@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Project1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Project1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project1/1.0.0": {
+      "type": "project",
+      "path": "../Project1/Project1.csproj",
+      "msbuildProject": "../Project1/Project1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Project1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tamirlevi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tamirlevi/Code/SimpleDotnetRepo/Solution1/Project2/Project2.csproj",
+      "projectName": "Project2",
+      "projectPath": "/Users/tamirlevi/Code/SimpleDotnetRepo/Solution1/Project2/Project2.csproj",
+      "packagesPath": "/Users/tamirlevi/.nuget/packages/",
+      "outputPath": "/Users/tamirlevi/Code/SimpleDotnetRepo/Solution1/Project2/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tamirlevi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/apiiro/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/tamirlevi/Code/SimpleDotnetRepo/Solution1/Project1/Project1.csproj": {
+              "projectPath": "/Users/tamirlevi/Code/SimpleDotnetRepo/Solution1/Project1/Project1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
